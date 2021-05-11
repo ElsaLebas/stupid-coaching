@@ -1,0 +1,25 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+ $lightgrey: #F4F4F4;
+ $lightyellow: #ffffe1;
+
+.dialogbox {
+  border-left: solid;
+  border-left-color: $lightgrey;
+  border-left-width: 4px;
+  padding: 16px;
+  margin: 16px;
+  p {
+    font-style: italic;
+  }
+}
+.answerbox {
+  background-color: $lightyellow;
+  padding: 16px;
+}
+
+.container {
+  margin: 16px;
+}
